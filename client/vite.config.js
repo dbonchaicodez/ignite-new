@@ -36,7 +36,7 @@ export default defineConfig({
     historyApiFallback: true, // Enable history API fallback for SPA routing
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://ignite-new-admin-e3ba.vercel.app/',
         changeOrigin: true,
         secure: false,
       }
